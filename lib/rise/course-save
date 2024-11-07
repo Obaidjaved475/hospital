@@ -1,0 +1,4 @@
+// When a section is completed in the Articulate course
+function completeSection(sectionName) {
+  window.parent.postMessage({ sectionCompleted: sectionName }, "https://oihana-test.webflow.io/course-lesson/hospital-aide");
+}
